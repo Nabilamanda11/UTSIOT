@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Connect to MongoDB
 try:
     client = MongoClient("mongodb://localhost:27017/")  # Adjust MongoDB URL if necessary
-    db = client.utsiot175  # Database name
+    db = client.utsiotnabila  # Database name
     collection = db.data_sensor  # Collection name
     print("Connected to MongoDB")
 except Exception as e:
